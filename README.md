@@ -112,14 +112,14 @@ git clone https://github.com/repoTAD4TRPL/FYP-02-2022.git
 
 Gambar dibawah merupakan tampilan informasi dapat dibaca dan terdownload di repository penyimpanan yang sudah ditetapkan sebelumnya. 
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/6.png)
+![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/16.png)
 
 
 Anda dapat melihat proses download selesai dengan membuka direktori, jika sudah ada, nama folder tersebut sama dengan nama repository yang diclone. 
 
 
 4.	Kemudian, mengaktifkan Apache dan MySQL pada XAMPP anda dengan menekan action button start. 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/7.png)
+![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/17.png)
 
 5.	Langkah selanjutnya bukalah php admin di browser dengan mengetik  http://localhost/phpmyadmin/ 
 ![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/8.png)
