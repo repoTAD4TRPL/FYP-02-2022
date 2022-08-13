@@ -28,7 +28,8 @@ Database Mysql: Versi 8.0.28
  
 Apache : 2.4.48
 
-Tools Editor : Sublime Text
+Tools Editor : Sublime HQ Pty Ltd Version 3.2.1
+
 
 
 **==>  Daftar User Type** 
