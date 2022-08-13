@@ -51,7 +51,9 @@ password	: admin
 
 Berikut Dashboard dari admin
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/1.png)
+
+![1](https://user-images.githubusercontent.com/71743279/184470161-48a41f65-b9b6-44c6-a7e9-c94b89d14728.png)
+
 
 **2.	Guru**
 
@@ -66,7 +68,9 @@ username	: intan123
 password	: intan123
 ```
 Berikut Dashboard dari guru
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/2.png)
+
+![2](https://user-images.githubusercontent.com/71743279/184470169-0bb81778-b71b-4a3d-91b6-40f9247bf6ce.png)
+
 
 **3.	Siswa**
 
@@ -81,7 +85,8 @@ password	: jeyshen123
 ```
 
 Berikut Dashboard dari siswa
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/3.png)
+
+![3](https://user-images.githubusercontent.com/71743279/184470178-4230271d-1c3d-4e0d-a0e3-80585b23bac3.png)
 
 **Langkah-langkah menjalankan website LMS SMAN 1 Simanindo.** 
 
@@ -98,53 +103,87 @@ Berikut Dashboard dari siswa
 1.	Mengakses link repository https://github.com/repoTAD4TRPL/FYP-02-2022  
 
 kemudian salin URL HTTPS di github dari project tersebut.
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/15.png)
+
+![15](https://user-images.githubusercontent.com/71743279/184470302-adaad389-3ba3-4e5b-9f93-6064fca22daa.png)
+
+
+
 
 
 2.	Buka lokasi directory XAMPP dimana sudah terdapat folder yang akan menjadi destinasi dari repository yang ingin diclone, kemudian jalankan CMD/git bash pada folder tersebut, dengan cara klik kanan 🡪 pilih Git Bash Here. 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/4.png)
+
+![4](https://user-images.githubusercontent.com/71743279/184470313-40c11d9e-6bec-4268-aba6-11c7da45f64e.png)
 
 
 3.	Langkah selanjutnya, lakukan clone project dengan mengetik git clone link repositories yang sudah disalin bertujuan meminta server dari github untuk mengirimkan informasi dari link repositories. 
-git clone https://github.com/repoTAD4TRPL/FYP-02-2022.git
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/5.png)
+
+![5](https://user-images.githubusercontent.com/71743279/184470341-a423df0a-0330-417a-a867-c9c18d268596.png)
+
+
 
 
 Gambar dibawah merupakan tampilan informasi dapat dibaca dan terdownload di repository penyimpanan yang sudah ditetapkan sebelumnya. 
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/16.png)
+![16](https://user-images.githubusercontent.com/71743279/184470356-e2823d53-1c6b-444b-a0bb-36684ae76405.png)
 
 
 Anda dapat melihat proses download selesai dengan membuka direktori, jika sudah ada, nama folder tersebut sama dengan nama repository yang diclone. 
 
 
 4.	Kemudian, mengaktifkan Apache dan MySQL pada XAMPP anda dengan menekan action button start. 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/17.png)
 
-5.	Langkah selanjutnya bukalah php admin di browser dengan mengetik  http://localhost/phpmyadmin/ 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/8.png)
+![17](https://user-images.githubusercontent.com/71743279/184470364-428dbac1-208e-49ca-978f-bc3106c259d2.png)
 
 
-	atau anda dapat mengklik admin pada MySQL, sistem akan membuka otomatis sql pada browser anda. 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/9.png)
+5.  Selain cara clone project, anda dapat mengakses repository dengan cara mendownlod nya, buka link github ini https://github.com/repoTAD4TRPL/FYP-02-2022 kemudian klik download zip.
+
+![19](https://user-images.githubusercontent.com/71743279/184470927-325dab54-071e-48cb-8e5a-df662b839f69.png)
+Kemudian, anda save zip dari repository github nya. 
+
+![20](https://user-images.githubusercontent.com/71743279/184470948-15b28995-feae-4d8c-943c-465a6dd4c618.png)
+
+Langkah selanjutnya ekstrak folder tersebut dengan cara klik kanan Extract Here. 
+
+![21](https://user-images.githubusercontent.com/71743279/184470965-591b1ec1-abbb-4309-a103-8b8ee8eb27c5.png)
+
+Berikut proses extract folder dari github
+
+![22](https://user-images.githubusercontent.com/71743279/184470987-10b7c626-d415-4f31-b3fe-5c476e9be500.png)
+
+
+Jika Folder tersebut berhasil di extract maka tampilannya sebagai berikut. 
+
+![23](https://user-images.githubusercontent.com/71743279/184471003-e0da1764-650a-4812-9938-9768884b1d6d.png)
+
+
+6.	Langkah selanjutnya bukalah php admin di browser dengan mengetik  http://localhost/phpmyadmin/ 
+
+![8](https://user-images.githubusercontent.com/71743279/184470392-9839e491-89fd-4942-bf87-dbe3e293c9b0.png)
+
+atau anda dapat mengklik admin pada MySQL, sistem akan membuka otomatis sql pada browser anda. 
+
+![9](https://user-images.githubusercontent.com/71743279/184470376-93228547-04cc-42af-9376-23d08c8c4874.png)
+
 
  
 
-6.	Langkah selanjutnya, membuat nama database bebas, namun disini kami menyarankan anda yaitu tugasakhir02, silahkan klik new dan isi db kemudian klik create.
+7.	Langkah selanjutnya, membuat nama database bebas, namun disini kami menyarankan anda yaitu tugasakhir02, silahkan klik new dan isi db kemudian klik create.
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/10.png)
+![10](https://user-images.githubusercontent.com/71743279/184470515-40c883d6-d887-4952-9ebb-f87a4334dfc4.png)
+
 
 Lalu, import database yang berada dalam directory FYP-02-2022
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/11.png)
+![11](https://user-images.githubusercontent.com/71743279/184470522-cbbbfae6-c0ec-4fbb-958c-481a0d48a33c.png)
 
 
 Kemudian menyesuaikan nama database yang telah dibuat kedalam db connector, pada file ini nama database tugasakhir02 
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/12.png)
+![10](https://user-images.githubusercontent.com/71743279/184470407-8530958f-26e4-4c20-a57f-d2c89c45e87a.png)
 
 
-7.	Setelah itu silahkan buka web browser anda dengan mengetik directory xampp anda, http://localhost/directoryanda/
+
+8.	Setelah itu silahkan buka web browser anda dengan mengetik directory xampp anda, http://localhost/directoryanda/
 
 Disini terdapat perbedaan halaman untuk mengakses dari admin dengan guru dan siswa, berikut uraiannya
 
@@ -158,7 +197,7 @@ Silahkan login menggunakan default account guru yang telah dijelaskan sebelumnya
 
 Tampilan Login Admin
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/13.png)
+![13](https://user-images.githubusercontent.com/71743279/184470430-9368590c-8e6b-4ec1-a51a-1c8681722c62.png)
 
 
  ⮚	Guru dan Siswa
@@ -167,6 +206,7 @@ Untuk mengakses LMS dari sisi guru maupun sisi siswa dapat membukanya dengan htt
 
 Tampilan Login Guru maupun Siswa
 
-![alt text](https://github.com/repoTAD4TRPL/FYP-02-2022/blob/main/14.png)
+![14](https://user-images.githubusercontent.com/71743279/184470437-7ee66ac1-bc56-4380-bf08-fe3e8904f6e0.png)
+
 
 
